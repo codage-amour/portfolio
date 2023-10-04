@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 body{
 background-color: black;
 color: white;
@@ -10,15 +13,149 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     bottom:17px;
     font-weight: bold;
 }
-a{color: white; 
+.n{color: white; 
 font-size: 17px;
 text-decoration: none;
 padding: 20px;
 position: relative;
 bottom:100px;
 left:50%;}
-a:hover{
+.n:hover{
     font-size: 30px;
     text-decoration: underline;
 }
+#wel{
+  font-size: 28px;
+  font-weight:800;
+  text-align: center;
+}
+#main{ 
+    font-size: 40px;
+    text-align: center;
+}
+li{
+    position: relative;
+    bottom:15px;
+    left:35%;
+    font-size:15px;
+}
+#cc{
+    position: relative;
+    bottom:33px;
+    left:50%;
+}
+#linkedin,#leet{
+    height:25px;
+    width:25px;
+    position: relative;
+    left:43%;
+    bottom:20px;
+}
+#insta,#hack{
+    height:23px;
+    width:30px;
+    position: relative;
+    left:50%;
+    bottom:20px;
+    
+}
+#git{
+    height:32px;
+    width:53px;
+    position: relative;
+    left: 27%;
+    bottom:17px;
+}
+#pic{margin-top: 160px;
+    border-radius: 50%;
+    height: 500px;
+    width:380px;
+    position: relative;
+    left: 70%;
+    top:150px;
+}
+#n,#d{
+    position: relative;
+   bottom:400px;
+   left:5%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#n{
+    margin-top: 80px;font-size: 50px;}
+#d{
+    font-size: 23px;
+}
+.ab{
+    position: relative;
+    bottom:350px;
+    left:5%;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#skm{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 60px;
+   padding: 60px;
+    text-align:center;
+    text-decoration: underline;
+}
 
+.skk{
+    height:220px;
+    width:220px;
+    position: relative;
+    left:3%;
+    bottom: 100px;
+}
+#s2{
+    position: relative;
+    left:40%;
+    bottom:570px;
+}
+#s3{
+    position: relative;
+    left:76%;
+    bottom:1055px;
+}
+.sk{
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    display: flexbox;
+    height:220px ;
+    width: 220px;
+  position: relative;
+  bottom: 260px;
+  left: 3%;
+  text-align: center;
+}
+#s22{  position: relative;
+    left:40%;
+    bottom:730px;
+}
+#s33{
+    position: relative;
+    left:76%;
+    bottom:1225px;
+}
+#linkf,#leetf,#hackf,#ef{
+    height: 20px;
+    width: 20px;
+}
+#gitf{
+    height:20px;
+    width: 30px;
+}footer{  background-color: white;
+padding: 10px;}
+footer>a{
+    color: black;
+  padding: 35px;
+}
+footer>p{
+    color:black;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
