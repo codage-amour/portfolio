@@ -7,7 +7,391 @@ background-color: black;
 color: white;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
+@media  only screen and (min-width:320px)
+{
+  #title{
+    font-size: 20px;
+    position: relative;
+    left:5%;
+    bottom:0px;
+    font-weight: bold;
+  }
+  .n{color: white; 
+  font-size: 10px;
+  text-decoration: none;
+  padding: 7px;
+  position: relative;
+  bottom:50px;
+  left:55%;
+  }
+  .n:hover{
+    font-size: 25px;
+    text-decoration: underline;
+  }
+  #about{
+  position: relative;
+  top:200px;
+  }
+  #work{
+  position: relative;
+  bottom:800px;
+  }
+  #resume{
+  position: relative;
+  bottom:350px;
+  }
+  #contact{
+  position: relative;
+  bottom:100px;
+  }
+  #wel{
+  font-size: 24px;
+  font-weight:800;
+ text-align: center;
+  }
+  #home{
+  position: relative;
+  top:10px;
+  }
+  #main{ 
+    font-size: 30px;
+    text-align: center;
+  }
+  li{
+    position: relative;
+    bottom:15px;
+    left:33%;
+    font-size:15px;
+  }
+  #cc{
+    position: relative;
+    left:33%;
+  }
+  #leet{
+    height:25px;
+    width:25px;
+    /*position: relative;
+    left:40%;
+  bottom:20px;*/
+  }
+  #linkedin{
+    height:25px;
+    width:25px;
+    /*position: relative;
+    left:55%;
+  bottom:20px;*/
+  }
+  #insta{
+    height:25px;
+    width:35px;
+    /*position: relative;
+    left:48%;
+  bottom:20px;*/
+  }
+  #hack{
+    height:23px;
+    width:30px;
+    /*position: relative;
+    left:50%;
+    bottom: 20px;*/
+  }
+  #git{
+    height:32px;
+    width:53px;
+  }
+  #git,#leet,#linkedin,#insta,#hack{
+    position: relative;
+    bottom:20px;
+    left:30%;
+    padding:10px;
+  }
+  #pic{margin-top: 160px;
+    border-radius: 50%;
+    height: 270px;
+    width:200px;
+    position: relative;
+    left:85%;
+    bottom:150px;
+  }
+  #n,#d{
+    position: relative;
+   bottom:500px;
+   left:5%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  #n{
+    margin-top: 80px;font-size: 20px;}
+  #d{
+    display: flexbox;
+    width:200px;
+    font-size: 12px;
+  }
+  .ab{ display: flexbox;
+    width:400px;
+    position: relative;
+    bottom:500px;
+    left:5%;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flexbox;
+    width:220px;
+  }
+  #skm,#skk,#pro,#rr{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+   padding: 60px;
+    text-align:center;
+    text-decoration: underline;
+  }
+  #rr{
+  position: relative;
+  bottom:40px;
+  }
+  #resume>a{
+  color: black;
+  background-color: white;
+  padding: 10px;
+  font-size: 15px;
+  border: 3px solid white;
+  border-radius: 10px;
+  }
+ #o{
+  position: relative;
+  left:27%;
+  bottom:80px;
+ }
+ #hh{
+  position: relative;
+  right:15%;
+  
+ }
+  #aa{
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    bottom:40px;
+  }
+  .skk{
+    height:150px;
+    width:150px;
+    position: relative;
+    left:3%;
+    bottom:70px;
+  }
+  #s2{
+    position: relative;
+    left:4%;
+    bottom:340px;
+  }
+  #s3{
+    position: relative;
+    left:4%;
+    bottom:600px;
+  }
+  .sk{
+    color:black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    display: flexbox;
+    height:150px ;
+    width: 150px;
+  position: relative;
+  bottom: 180px;
+  left:3%;
+  text-align: center;
+  }
+  #s22{  position: relative;
+    left:3%;
+    bottom:440px;
+  }
+  #s33{
+    position: relative;
+    left:3%;
+    bottom:710px;
+  }
+  #linkf,#leetf,#hackf,#ef{
+    height: 20px;
+    width: 20px;
+  }
+  #gitf{
+    height:20px;
+    width: 30px;
+  }
+  footer{  background-color: white;}
+  #bb{
+  position: relative;
+  bottom:500px;
+  color: white;
+  font-size:10px ;
+  text-align: center;
+  }
+  footer>div>a{
+    color: black;
+   display: block;
+text-align: center;}
+  footer>p{
+    color:black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .fd{ color:white;
+    font-size: 12px;
+    padding: 5px;
+    position:relative;
+    left:60%;
+    bottom:380px;
+  }
+  .fd2{ color:white;
+    font-size: 12px;
+    padding: 7px;
+    position:relative;
+    left:60%;
+    bottom:650px;
+  }
+  .fd3{ color:white;
+    font-size: 12px;
+    padding: 7px;
+    position:relative;
+    left:60%;
+    bottom:900px;
+  }
+  .skk,.sk{
+    animation-name:infiniteupdown;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease-in-out;
+    transition: all 1s;
+  }
+  @keyframes infiniteupdown {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+  }
+  .fd,.fd2,.fd3 {
+    background-image: -webkit-linear-gradient(black 50%, white 50%);
+    background-size: 100% 50px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-animation: stripes 2s linear infinite;
+    animation: stripes 2s linear infinite;
+    font-weight: bold;
+  }
+  
+  @-webkit-keyframes stripes {
+    100% {
+      background-position: 0 -50px;
+    }
+  }
+  
+  @keyframes stripes {
+    100% {
+      background-position: 0 -50px;
+    }
+  }
+  #nfrm,#efrm{
+    height: 30px;
+    width:120px;
+    border-radius: 10px;
+    padding:3px;
+    font-size: 14px;
+  }
+  #nfrm,#sfrm{
+    position: relative;
+    left:3%;
+  }
+  #efrm{
+    position: relative;
+    bottom: 40px;
+    margin-left:150px;
+  }
+  #sfrm{
+    height: 30px;
+    width:250px;
+    border-radius: 10px;
+    padding:7px;
+    font-size: 14px;
+    position: relative;
+    bottom: 40px;
+  }
+  #msg{
+    height:100px;
+    width:250px;
+    border-radius: 10px;
+    padding:7px;
+    font-size: 14px;
+    position: relative;
+    bottom: 35px;
+    left:3%;
+  }
+  #submit{
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width:200px;
+    border-radius: 10px;
+    padding:7px;
+    font-size: 14px;
+    position: relative;
+    left:15%;
+    bottom:23px;
+  }
+  #work>div>h1{
+  font-size: 25px;
+  text-align: center;
+  text-decoration: underline;
+  }
+  #work>div>p{
+  font-size: 13px;
+  }
+  #pr1{ display:flexbox;
+  width:280px;
+  height:220px;
+  color:black;
+  background-color: white;
+  position: relative;
+  left:10%;
+  padding:3px 15px;
+  }
+  #pr3{ display:flexbox;
+  width:280px;
+  height:220px;
+  color:black;
+  background-color: white;
+  position: relative;
+  left:11%;
+  top:100px;
+  padding:3px 15px;
+  }
+  #pr2{ display:flexbox;
+  width:280px;
+  height:200px;
+  padding-top: 1px;
+  color:black;
+  background-color: white;
+  position: relative;
+  left: 10%;
+  top:35px;
+  padding-left: 15px;
+  }
+  #pr3>a,#pr2>a,#pr1>a{
+  color:white;
+  background-color: black;
+  text-decoration: none;
+  padding:7px;
+  position: relative;
+  left:24%;
+  top:9px;
+  border-radius: 5px;
+  }
+}
 @media  only screen and (min-width:481px)
 {
   #title{
@@ -59,7 +443,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   }
   #main{ 
     font-size: 30px;
-    text-align: center;
+   text-align: center;
   }
   li{
     position: relative;
@@ -113,11 +497,11 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   }
   #pic{margin-top: 160px;
     border-radius: 50%;
-    height: 500px;
-    width:380px;
+    height: 270px;
+    width:200px;
     position: relative;
     left:85%;
-    top:70px;
+    bottom:150px;
   }
   #n,#d{
     position: relative;
@@ -126,18 +510,18 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   font-family: Georgia, 'Times New Roman', Times, serif;
   }
   #n{
-    margin-top: 80px;font-size: 30px;}
+    margin-top: 80px;font-size: 20px;}
   #d{
     display: flexbox;
     width:350px;
-    font-size: 19px;
+    font-size: 12px;
   }
   .ab{ display: flexbox;
     width:400px;
     position: relative;
     bottom:500px;
     left:5%;
-    font-size: 16px;
+    font-size: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flexbox;
     width:350px;
@@ -232,6 +616,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   text-align: center;
   }
   footer>div>a{
+    display: inline;
     color: black;
   padding: 30px;}
   footer>p{
@@ -1234,37 +1619,32 @@ li{
 #leet{
   height:25px;
   width:25px;
-  position: relative;
-  left:38%;
-bottom:20px;
+
 }
 #linkedin{
   height:25px;
   width:25px;
-  position: relative;
-  left:52.5%;
-bottom:20px;
+
 }
 #insta{
   height:25px;
   width:35px;
-  position: relative;
-  left:45%;
-bottom:20px;
 }
 #hack{
   height:23px;
   width:30px;
-  position: relative;
-  left:50%;
-  bottom: 20px;
+
 }
 #git{
   height:32px;
   width:53px;
+  
+}
+#git,#leet,#linkedin,#insta,#hack{
   position: relative;
   bottom:20px;
-  left:27%;
+  left:40%;
+  padding:10px;
 }
 #pic{margin-top: 160px;
   border-radius: 50%;
@@ -1458,7 +1838,7 @@ footer>p{
 }
 #nfrm,#efrm{
   height: 30px;
-  width:400px;
+  width:500px;
   border-radius: 10px;
   padding:7px;
   font-size: 14px;
@@ -1470,11 +1850,11 @@ footer>p{
 #efrm{
   position: relative;
   bottom: 48px;
-  margin-left:540px;
+  margin-left:600px;
 }
 #sfrm{
   height: 30px;
-  width:880px;
+  width:1030px;
   border-radius: 10px;
   padding:7px;
   font-size: 14px;
@@ -1483,7 +1863,7 @@ footer>p{
 }
 #msg{
   height:130px;
-  width:880px;
+  width:1030px;
   border-radius: 10px;
   padding:7px;
   font-size: 14px;
@@ -1494,7 +1874,7 @@ footer>p{
 #submit{
   font-weight: bold;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  width:890px;
+  width:1040px;
   border-radius: 10px;
   padding:7px;
   font-size: 14px;
@@ -1641,7 +2021,7 @@ li{
     height: 500px;
     width:380px;
     position: relative;
-    left: 60%;
+    left: 68%;
     top:70px;
 }
 #n,#d{
@@ -1655,7 +2035,7 @@ li{
 #d{
     font-size: 23px;
     display:flexbox;
-    width:1000px;
+    width:800px;
 }
 .ab{display:flexbox;
   width:700px;
