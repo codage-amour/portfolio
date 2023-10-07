@@ -8,6 +8,25 @@
 </head>
 <body>
     <nav id="header">
+    <img id="ham" src="https://logodix.com/logo/1146042.jpg">
+      <div id="hi">
+        <a class="h" href="#home">Home</a>
+        <a class="h" href="#about">About</a>
+        <a class="h" href="#skill">Skill</a>
+        <a class="h" href="#work">Work</a>
+        <a class="h" href="#resume">Resume</a>
+        <a class="h" href="#contact">Contact</a>
+      </div>
+     
+      <script>
+const ham = document.getElementById("ham");
+const hi = document.getElementById("hi");
+ham.addEventListener("click", () => {
+  hi.style.backgroundColor = "white";
+});
+hi.addEventListener("click",() =>{hi.style.backgroundColor="black";});
+
+      </script>
       <p id="title"> Palak </p>
         <a class="n" href="#home">Home</a>
         <a class="n" href="#about">About</a>
@@ -37,7 +56,7 @@
         <img  id="pic"  src="portfolio.jpg">
         <h1 id="n">I am Palak Verma...</h1>
         <p id="d"> I am a second year college student pursuing major in Computer Science with a keen interest in web development mainly Frontend.Alongside this,I have a strong base in problem solving.</p>
-        <p class="ab">Full Name  :   Palak Verma</p>
+        <p class="ab">Full Name   :   Palak Verma</p>
         <p class="ab">Age         :   20 </p>
         <p class="ab">Native City :   Lucknow</p>
         <p class="ab">Course      :   Bachelor Of Technology</p>
@@ -89,7 +108,7 @@
     <section id="resume">
    <p id="rr"> Resume</p>
    <a id="o" href="palak verma.pdf">Open The Resume</a>
-   <a id="hh" href="palak verma.pdf" download="palak verma.pdf">Download </a>
+   <a id="hh" href="palak verma.pdf" download="palak verma.pdf">Download The Resume </a>
     </section>
     <section id="contact"> 
       <p id="skk">Contact</p>
